@@ -22,7 +22,7 @@ from telegram.ext import (
 
 # ===== ԿԱՐԳԱՎՈՐՈՒՄՆԵՐ =====
 TOKEN = os.environ.get("BOT_TOKEN")        # token-ը Termux-ում export-ով ենք դնում
-BARBER_ID = 6313339628                     # վարսավիրի Telegram ID-ն
+BARBER_ID = 6313339628                     
 OPEN_HOUR = 10                             # բացման ժամ
 CLOSE_HOUR = 23                            # փակման ժամ (վերջին գրառումը 22:00)
 DAYS_AHEAD = 7                             # քանի օր առաջ ցույց տալ
